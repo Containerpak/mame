@@ -6,7 +6,7 @@
   "version": "0.285",
   "image": "ghcr.io/containerpak/mame:main",
   "binaries": [
-    "/usr/bin/mame"
+    "/usr/games/mame"
   ],
   "desktop_entries": [
     "/usr/share/applications/mame.desktop"
@@ -61,4 +61,3 @@
     "allowedHostCommands": []
   }
 }
-

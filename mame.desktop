@@ -2,8 +2,7 @@
 Type=Application
 Name=MAME
 Comment=Emulate arcade machines and historical computer systems.
-Exec=mame %U
+Exec=/usr/games/mame %U
 Icon=mame
 Terminal=false
 Categories=Game;Emulator;
-

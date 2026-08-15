@@ -50,7 +50,6 @@ jobs:
           provenance: mode=max
           sbom: true
       - name: Verify package
-        run: docker run --rm ghcr.io/containerpak/mame:main sh -c 'test -x /usr/bin/mame && test -f /usr/share/applications/mame.desktop'
+        run: docker run --rm ghcr.io/containerpak/mame:main sh -c 'test -x /usr/games/mame && test -f /usr/share/applications/mame.desktop'
       - name: Publish summary
         run: echo "ghcr.io/containerpak/mame@${{ steps.build.outputs.digest }}" >> "${GITHUB_STEP_SUMMARY}"
-
