@@ -4,7 +4,7 @@
   "name": "MAME",
   "description": "Emulate arcade machines and historical computer systems.",
   "version": "0.285",
-  "image": "ghcr.io/containerpak/mame@sha256:5805b41dacab06a38da275312edd55f6bd1f6c879d19eca69cba3f3d09bf4b95",
+  "image": "ghcr.io/containerpak/mame@sha256:0bfee6a6b4f282fe79dec56679b26ccc1e1d235ee753db0ad9fcfabb6ee27522",
   "binaries": [
     "/usr/games/mame"
   ],
